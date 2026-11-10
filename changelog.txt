@@ -1,3 +1,2 @@
-WRITE WHAT CHANGED
 - The editor now updates itself: new versions are offered when it starts.
 - Adding a regiment to a Skirmish area adds spawns that follow the area's convention: the defending team gets a defend spawn on the point, attackers don't (infantry and cavalry); artillery gets its forward and shared base spawns.
