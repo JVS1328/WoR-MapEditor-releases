@@ -43,7 +43,7 @@ def main(version, dry):
     if problems and not dry:
         raise SystemExit("Fix the warnings above first.")
 
-    files = [SRC / f for f in run("git", "ls-files", cwd=SRC).stdout.splitlines()] + [exe] + sorted(p for p in rt.rglob("*") if p.is_file())
+    files = [SRC / f for f in run("git", "ls-files", cwd=SRC).stdout.splitlines()] + [exe] + sorted(p for p in rt.rglob("*") if p.is_file() and p.suffix != ".pyc")  # .pyc: this PC's bytecode cache
     zpath = HERE / f"WoR-Map-Editor-v{version}.zip"
     with zipfile.ZipFile(zpath, "w", zipfile.ZIP_DEFLATED) as z:
         z.writestr("WoR-MapEditor/projects/", "")  # where the user's maps go
