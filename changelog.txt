@@ -1,2 +1,2 @@
-- The editor now updates itself: new versions are offered when it starts.
-- Adding a regiment to a Skirmish area adds spawns that follow the area's convention: the defending team gets a defend spawn on the point, attackers don't (infantry and cavalry); artillery gets its forward and shared base spawns.
+- Copy and paste map objects: select buildings, fences, trees... and press Ctrl+C, then Ctrl+V pastes them under the mouse (also right-click: Copy / Paste objects here). Works in the map and the game view, and the copy is kept when you switch maps, so you can take an untouched building from Antietam to South Mountain.
+- The game view now asks for the high-performance (discrete) GPU on laptops and dual-GPU PCs. Windows' per-app graphics setting can't do this for the editor, because the 3D view runs in Edge's WebView2 process.
