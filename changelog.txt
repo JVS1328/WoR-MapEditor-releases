@@ -1,3 +1,6 @@
+- Fixed: panels hidden with Tab on the 2D map stayed hidden in the game view, and Tab did nothing there. Tab now shows and hides every panel in both views, the game view's own panels included.
+
+New in 1.0.13, in case you skipped it:
 - Pictures in the object lists: every model in the Objects search and in the game view's Place and Paint lists now shows a small picture next to its name.
 - Designer brushes (a map's own one-off pieces) can be placed: the game view's Place tab has a Designer brushes category, and the Objects search finds them under "designer". They work only on the map they belong to.
 - Line from an object: right-click a placed fence, wall or any object and pick "Line of … from here" (or "Line from here" in the game view's Selection tab) to draw a line of more of them, starting where that one ends.
