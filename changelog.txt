@@ -1,10 +1,10 @@
-- Designer brushes are now explained where the editor offers them: they are one-off shapes the developers built inside the level editor for one spot on the map. Many are invisible in game: they can be used as a sound source, an invisible wall, or even a light / particle source (e.g. the burning Mumma farm). Others are visible pieces, such as parts of a barn. The invisible ones are marked "invisible in game" in the list.
-- Tip: to work out what a designer brush does, look at the copy the map already has. In the game view, pick it in the Designer brushes list and press "Go to the original": it takes you to the piece the developers placed and selects it.
-- Fixed (1.0.14): panels hidden with Tab on the 2D map stayed hidden in the game view, and Tab did nothing there. Tab now shows and hides every panel in both views.
+Fixes for maps with sculpted ground:
+- Fixed: a spawn, flag or gun you moved on a map with sculpted ground could be built above or below the ground. It now keeps its height above the ground.
+- Fixed: stock roads on sculpted ground could be built too high or too low where the ground change differed along the road.
+- Fixed: sculpting the ground near the middle of the map lifted or lowered the far landscape round the whole map. It now stays where it is, and the game view always draws it.
+- Fixed: a map whose ground was changed a lot could fail to open in the editor after it was built, because its objects could not be found in the built files.
+- Not tested in game yet: these fixes.
 
-New in 1.0.13, in case you skipped it:
-- Pictures in the object lists: every model in the Objects search and in the game view's Place and Paint lists now shows a small picture next to its name.
-- Designer brushes can be placed: the game view's Place tab has a Designer brushes category, and the Objects search finds them under "designer". They work only on the map they belong to.
-- Line from an object: right-click a placed fence, wall or any object and pick "Line of … from here" (or "Line from here" in the game view's Selection tab) to draw a line of more of them, starting where that one ends.
-- Game view: the picked category and mode buttons are highlighted.
-- Not tested in game yet: placed designer brushes. Players need the built files.
+New in 1.0.15, in case you skipped it:
+- Designer brushes are now explained where the editor offers them: they are one-off shapes the developers built inside the level editor for one spot on the map. Many are invisible in game (a sound source, an invisible wall, a light or particle source); others are visible pieces, such as parts of a barn. The invisible ones are marked "invisible in game" in the list.
+- Tip: to work out what a designer brush does, pick it in the game view's Designer brushes list and press "Go to the original": it takes you to the piece the developers placed and selects it.
