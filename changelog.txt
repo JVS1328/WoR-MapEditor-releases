@@ -1,8 +1,10 @@
-- Fixed: panels hidden with Tab on the 2D map stayed hidden in the game view, and Tab did nothing there. Tab now shows and hides every panel in both views, the game view's own panels included.
+- Designer brushes are now explained where the editor offers them: they are one-off shapes the developers built inside the level editor for one spot on the map. Many are invisible in game: they can be used as a sound source, an invisible wall, or even a light / particle source (e.g. the burning Mumma farm). Others are visible pieces, such as parts of a barn. The invisible ones are marked "invisible in game" in the list.
+- Tip: to work out what a designer brush does, look at the copy the map already has. In the game view, pick it in the Designer brushes list and press "Go to the original": it takes you to the piece the developers placed and selects it.
+- Fixed (1.0.14): panels hidden with Tab on the 2D map stayed hidden in the game view, and Tab did nothing there. Tab now shows and hides every panel in both views.
 
 New in 1.0.13, in case you skipped it:
 - Pictures in the object lists: every model in the Objects search and in the game view's Place and Paint lists now shows a small picture next to its name.
-- Designer brushes (a map's own one-off pieces) can be placed: the game view's Place tab has a Designer brushes category, and the Objects search finds them under "designer". They work only on the map they belong to.
+- Designer brushes can be placed: the game view's Place tab has a Designer brushes category, and the Objects search finds them under "designer". They work only on the map they belong to.
 - Line from an object: right-click a placed fence, wall or any object and pick "Line of … from here" (or "Line from here" in the game view's Selection tab) to draw a line of more of them, starting where that one ends.
 - Game view: the picked category and mode buttons are highlighted.
 - Not tested in game yet: placed designer brushes. Players need the built files.
