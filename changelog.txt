@@ -1,3 +1,9 @@
-- New maps: map menu > "New map from <Map>…" makes a copy of the open map, with your edits, under a new name (and the name players see). Install into game and Push to server carry it like the rest of the build; Delete in the same dialog removes it again. To change it, edit the map it came from and create it again under the same name.
-- The New map dialog shows how to load it on your server: push it, restart the server, then switch with the console command Game.ChangeMap <Name> <Mode>, as an admin in game or over the server's RCON. Not tested in game yet.
-- Install into game and Push skip files that haven't changed, so a new map (about 450 MB) is only sent once.
+- Roads: new Road tool (R) in the 2D map and the game view. Draw a road (dirt, forest, macadam, double, ploughed field; width, draw order), it follows a smooth curve and paints a dirt ground type under it. Delete any road, yours or the map's. Built the way the game's own roads are.
+- Ground types: Sculpt > Ground paints the ground type (texture, colour from afar, footstep sounds, and the grass the game grows on it). Works in the game view too. Show > Ground types and Show > Roads draw them on the 2D map.
+- In-game maps: Build redraws the map screen, deployment, loading screen and whole-level map pictures where you changed roads, trees, buildings, fences, fields or the ground, in the game's own style. Map menu > In-game maps… shows them before and after, and turns the redrawing off for that map. Flag and spawn icons are placed by the game itself and follow your edits.
+- Reset this map… resets the whole map or only the parts you pick (a mode, single areas, objects, roads, terrain), with Undo reset.
+- New maps open and edit like any map. They start left out of Install / Push (tick Install / Push in the New map dialog), and appear in the in-game admin map list.
+- Game view: the level's own time-of-day lighting and fog; the grass the game grows on each ground type; its corner and big maps show the 2D map (drag the big map to look around, double-click to go there).
+- Forest painting: Dense wood / Open woodland / Wood edge presets and Forest settings (density, clumping, soft edge, lean, the mix of models, undergrowth, keep off roads).
+- Fence line: set the spacing between sections.
+- Not tested in game yet: new roads, painted ground and the redrawn maps. Players need the built files.
