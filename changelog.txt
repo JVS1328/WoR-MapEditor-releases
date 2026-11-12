@@ -1,1 +1,2 @@
-- Selection carries across views: what you have selected on the 2D map is selected in the game view when you press G, and the game view's selection comes back to the 2D map.
+- Designer brushes can be picked as a brush: the game view's Paint and Fence line search now lists the map's designer brushes.
+- "Line from here" keeps the object's scale: the new sections are the same size as the one you started from and spaced to match.
