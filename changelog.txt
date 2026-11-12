@@ -1,1 +1,3 @@
-- Game view: the side panel's tabs (Place, Paint, Road, Selection, Terrain, Categories) wrap onto a second row instead of running off the edge.
+- Material of a placed object: select a building piece, prop or tree and pick its Material in the inspector (2D map and game view). A camp flag can show any regiment's colours, e.g. Union on one map and the Stars and Bars on another. Players need the map's files to see it.
+- Camp flags and other props whose material is a single texture now draw textured in the game view instead of grey.
+- Game view: duplicated and moved objects can be clicked to select them again (before, only a box selection found them).
