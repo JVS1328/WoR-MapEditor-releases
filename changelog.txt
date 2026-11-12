@@ -1,2 +1,1 @@
-- Designer brushes can be picked as a brush: the game view's Paint and Fence line search now lists the map's designer brushes.
-- "Line from here" keeps the object's scale: the new sections are the same size as the one you started from and spaced to match.
+- Overlay a template on the 2D map: Show > Overlay lays another map (its in-game map, relief or satellite) or any image file over the map to trace from. It fits the whole map (4096 m) at first; set its opacity, size, rotation and centre, or Alt+drag it on the map and Alt+wheel to resize. It's only shown in the editor, never built into the map, and it's remembered per map.
