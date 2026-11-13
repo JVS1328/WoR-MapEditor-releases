@@ -1,7 +1,2 @@
-- Switching maps in the game view works: going from one map to another (e.g. Antietam to Drill Camp) no longer leaves it drawing no objects or the wrong ground textures.
-- The game view uses far less graphics memory. The old map is cleared when you switch, and each texture loads once instead of once per model: Harpers Ferry went from about 1.8 GB to about 0.3 GB, which should stop it crashing after a minute on smaller graphics cards. If the graphics card resets anyway, the view says so and comes back on its own.
-- Mouse wheel zoom in the game view: Keys (F1) > Game view wheel > Zoom. The wheel zooms toward the point under the mouse (Shift: finer) and Alt+wheel sets the speed. The Modeller preset zooms.
-- New boundaries and staging areas: the Gameplay tool has an Areas row (Boundary, USA staging, CSA staging). It copies one into the current area, then you drag around its new outline.
-- Level the ground under an object: right-click it (or Level ground in its panel), in the 2D map or the game view. The ground inside it goes flat at the height under its centre and blends into the land around it, so guns inside an earthwork stand level. One undo step.
-- Material drag and drop: a selected object's Material row has a "Drag onto objects" handle. Drop it on another object to give it the same material, or on a selected object to give it to the whole selection.
-- The Corn brush preset also paints the corn billboards every stock cornfield has (about 16 m apart): the field seen from afar, cheap in game.
+- Guided tour: on first launch the editor walks you through the window, one part at a time (maps, game modes, areas, each tool, the game view, what the map shows, Build, Save, Keys). Skip it any time; the ? button at the top right runs it again.
+- Reminder: every key can be changed in Keys (top right, or F1), including what the mouse wheel does in the game view.
