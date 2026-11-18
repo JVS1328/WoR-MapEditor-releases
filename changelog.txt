@@ -1,5 +1,5 @@
-- Water tool (W, or 4 in the game view): draw creeks, rivers, ponds and lakes. Creeks and rivers: drag or click a line along them; they run downhill whichever way you draw them, and the channel is dug with sloping banks and a riverbed. Ponds and lakes: draw around them; the water sits just under the lowest ground around the edge. Pick the width and depth.
-- Edit any water, yours or the map's own: click it, drag its squares to reshape it or drag the water to move it, double-click a square to remove it or the line to add one, and change width and depth. Moving water fills its old bed back in and digs the new one. Ctrl+Z undoes each change.
-- Delete water: yours (its bed is filled back in) or the map's (a whole river, or Shift+click for one piece).
-- Water looks like the map's own: black ink on the paper map, water colour on Satellite (where the map's own creeks now show too), and in the game view. Build draws new water on the in-game map pictures and removes deleted map water from them.
-- Not tested in the game yet: tell us how the water looks and plays. Players need the new files to see new water.
+- Satellite view: water now shows only where it really is. The map's rivers are stored as wide strips that run up the banks under the ground; the editor used to paint all of that as water, so on Harpers Ferry it looked like the river covered the land. Now it matches where the game shows water.
+- Clicking water to edit or delete it no longer picks up the river when you click on dry land near it.
+- Deleting the map's own water no longer erases riverbank ink from the in-game map pictures.
+- Show menu > Water: turn the water off (or back on) in the 2D map, Satellite included, and in the game view.
+- Game view: deleted map water disappears right away instead of after reopening.
