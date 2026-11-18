@@ -1,9 +1,5 @@
-- Work as a team (Build menu): share a map through a private GitHub repo, all inside the editor. Sign in with a GitHub token (the dialog links to the page that makes one), Start a team to create the repo, invite teammates by GitHub username; they accept in their own Team dialog. Sync brings in everyone's changes and sends yours, item by item. If you and someone else changed the same thing, it asks: Keep mine or Take theirs, and Show draws both on the map (yours orange, theirs blue). History lets you go back to any sync. Not yet tested with two people on a real repo: tell us how it goes.
-- Team kits: select objects in the game view, Selection > Share as team kit, and everyone finds them in Place > Team kits.
-- Auto-save and backups (Build menu > Backups and auto-save): saves every 2, 5, 10 or 15 minutes (5 by default) and keeps your last 30 saves of each map to restore.
-- Selected objects in the game view get a bright outline.
-- Select filter (top of the game view): choose whether a click or box picks natural things (trees, rocks, plants), man-made objects, or what you placed. Turn off natural to stop grabbing foliage.
-- Local axes: the move / rotate gizmo can follow the object's own axes instead of the world's.
-- The inspector's position, height, facing, pitch, roll and scale drag like sliders: drag left or right, Shift for finer, Ctrl for bigger steps, click to type. One drag is one undo.
-- Drill Camp: spawn points can be selected and edited. The ropes on bayonet dummies and telegraph poles follow when you move them and go when you delete them.
-- Removed the RCON instructions: War of Rights has no RCON.
+- Water tool (W, or 4 in the game view): draw creeks, rivers, ponds and lakes. Creeks and rivers: drag or click a line along them; they run downhill whichever way you draw them, and the channel is dug with sloping banks and a riverbed. Ponds and lakes: draw around them; the water sits just under the lowest ground around the edge. Pick the width and depth.
+- Edit any water, yours or the map's own: click it, drag its squares to reshape it or drag the water to move it, double-click a square to remove it or the line to add one, and change width and depth. Moving water fills its old bed back in and digs the new one. Ctrl+Z undoes each change.
+- Delete water: yours (its bed is filled back in) or the map's (a whole river, or Shift+click for one piece).
+- Water looks like the map's own: black ink on the paper map, water colour on Satellite (where the map's own creeks now show too), and in the game view. Build draws new water on the in-game map pictures and removes deleted map water from them.
+- Not tested in the game yet: tell us how the water looks and plays. Players need the new files to see new water.
