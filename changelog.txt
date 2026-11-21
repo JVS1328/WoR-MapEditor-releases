@@ -1,5 +1,3 @@
-- Satellite view: water now shows only where it really is. The map's rivers are stored as wide strips that run up the banks under the ground; the editor used to paint all of that as water, so on Harpers Ferry it looked like the river covered the land. Now it matches where the game shows water.
-- Clicking water to edit or delete it no longer picks up the river when you click on dry land near it.
-- Deleting the map's own water no longer erases riverbank ink from the in-game map pictures.
-- Show menu > Water: turn the water off (or back on) in the 2D map, Satellite included, and in the game view.
-- Game view: deleted map water disappears right away instead of after reopening.
+- Placing a gun now also places its matching limber behind it (12 m back, like the stock maps) and a caisson behind that, all facing the same way. Works in the 2D Add panel and in the game view. One undo removes all three.
+- "Include limber and caisson" checkbox (on by default) in both places, for when you want just the gun. The limber and caisson can still be moved or deleted on their own afterwards, and placed alone without a gun.
+- Game view: new shadows and foliage buttons next to quality. Turn shadows off, or hide trees, bushes and grass, to see the ground or speed the view up. Your choice is remembered.
