@@ -1,1 +1,3 @@
-- Placing a gun now matches the stock batteries: its limber 12 m behind it, then a second limber with a caisson hitched on about 28 m and 30 m behind the gun, all facing the gun's way. (1.5.0 put a lone caisson too close.)
+- Build menu: Export as .zip to share. It builds, then makes a .zip of the mod and shows it in Explorer. To use it: open the zip and drag everything in it into War of Rights\Assets.
+- Game view: the shadows and foliage toggles turn back on again. Looking around with the right mouse button used to switch both off.
+- The Build message names the map that was built, even if you open another map while it builds.
