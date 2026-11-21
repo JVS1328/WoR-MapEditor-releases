@@ -1,3 +1,1 @@
-- Placing a gun now also places its matching limber behind it (12 m back, like the stock maps) and a caisson behind that, all facing the same way. Works in the 2D Add panel and in the game view. One undo removes all three.
-- "Include limber and caisson" checkbox (on by default) in both places, for when you want just the gun. The limber and caisson can still be moved or deleted on their own afterwards, and placed alone without a gun.
-- Game view: new shadows and foliage buttons next to quality. Turn shadows off, or hide trees, bushes and grass, to see the ground or speed the view up. Your choice is remembered.
+- Placing a gun now matches the stock batteries: its limber 12 m behind it, then a second limber with a caisson hitched on about 28 m and 30 m behind the gun, all facing the gun's way. (1.5.0 put a lone caisson too close.)
