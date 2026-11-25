@@ -1,3 +1,4 @@
-- Build menu: Export as .zip to share. It builds, then makes a .zip of the mod and shows it in Explorer. To use it: open the zip and drag everything in it into War of Rights\Assets.
-- Game view: the shadows and foliage toggles turn back on again. Looking around with the right mouse button used to switch both off.
-- The Build message names the map that was built, even if you open another map while it builds.
+- Spawns: pick the unit (infantry, artillery, cavalry) and the kind (base, forward, staging) before adding a spawn in the Gameplay tool or from the right-click menu. A spawn's panel now lets you change its team, unit and kind too.
+- Adding a gun no longer leaves a stray limber and caisson in every other Skirmish area and game mode: the pair behind a new gun now belongs to the gun's area only. Pairs placed with an older version still show everywhere: delete them and add the gun again.
+- The map now shows only the current area's stock limbers and caissons, not every area's at once (Show > Every layer still shows them all).
+- Copy and paste guns, spawns and flags: Ctrl+C, then Ctrl+V pastes them under the mouse into the area you are editing, on the 2D map and in the game view. Guns also paste onto other maps. Ctrl+D on an item from another area puts the copy in the current area.
